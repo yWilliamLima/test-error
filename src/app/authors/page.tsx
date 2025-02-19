@@ -14,5 +14,5 @@ export default async function Page() {
     <HydrationBoundary state={dehydrate(queryClient)}>
       <Authors />
     </HydrationBoundary>
-  );
+  )
 }
